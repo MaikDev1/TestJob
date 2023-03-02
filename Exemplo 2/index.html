@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sequência de finobacci</title>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<style>
+  body {
+    color: white;
+    background-color: #101010;
+    text-align: center;
+    font-family: arial;
+  }
+
+  button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+button:hover{
+  background-color: rgb(41, 109, 235);
+  font-size: 16.1px;
+}
+
+
+  p{
+    margin-top: 50vh;
+  }
+
+
+  .container{
+    display: grid;
+  }
+
+
+
+  input{
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+  }
+
+  input:hover{
+    outline: 2px solid rgb(153, 176, 218);
+  }
+
+  input:focus{
+    outline: 2px solid rgb(39, 109, 238);
+  }
+
+  #reposta{
+    color: white;
+  }
+
+</style>
+
+<body>
+  <div class="container">
+    <p>Número para buscar na sequência de fibonacci: <input id="numero" type="number"></p>
+    <button onclick="fibonacci()">Exibir</button><br />
+    <div id='resposta'></div>
+  </div>
+</body>
+
+</html>

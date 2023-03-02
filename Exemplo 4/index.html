@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Faturamento Mensal Distribuidora</title>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<style>
+  body {
+    color: white;
+    background-color: #101010;
+    text-align: center;
+    font-family: arial;
+  }
+
+  button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px;
+  }
+button:hover{
+  background-color: rgb(41, 109, 235);
+}
+
+
+  p{
+    margin-top: 50vh;
+  }
+
+
+  .container{
+    display: grid;
+  }
+
+
+
+  input{
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+  }
+
+  input:hover{
+    outline: 2px solid rgb(153, 176, 218);
+  }
+
+  input:focus{
+    outline: 2px solid rgb(39, 109, 238);
+  }
+
+  #reposta{
+    color: white;
+  }
+
+
+</style>
+<body>
+  <button onclick="calcularPorcentam()">Exibir Percentual do Faturamento</button><br />
+  <div id='resposta'></div>
+</body>
+
+</html>

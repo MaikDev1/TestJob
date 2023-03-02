@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Inverte Caracteres</title>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<style>
+  body {
+    color: white;
+    background-color: #101010;
+    text-align: center;
+    font-family: arial;
+  }
+
+  button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px;
+    width: 125px;
+  }
+
+  button:hover {
+    background-color: rgb(41, 109, 235);
+  }
+
+
+  p {
+    margin-top: 50vh;
+  }
+
+
+  .container {
+    display: grid;
+  }
+
+
+
+  input {
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+    height: 20px;
+  }
+
+  input:hover {
+    outline: 2px solid rgb(153, 176, 218);
+  }
+
+  input:focus {
+    outline: 2px solid rgb(39, 109, 238);
+  }
+
+  #reposta {
+    color: white;
+  }
+</style>
+
+<body>
+  <div style="margin-top: 40vh;">
+    Texto: <input id="texto" type="text"> <br />
+    <button onclick="inverterTexto()">Exibir</button><br />
+    <div id='resposta'></div>
+  </div>
+</body>
+
+</html>
